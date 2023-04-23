@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+img {
+
+   width: 43%;
+   height: auto;
+
+}
+.container {
+
+    position: absolute;
+    width: 500px;
+    height: 0px;
+    left: 800px;
+    top: 100px;
+}
+.in{
+
+    background-color: #F5F5F7;
+    border:0;
+    border-radius: 10px;
+    width: 443px;
+    height: 64px;
+    text-indent: 60px;
+}
+.box-blue{
+    background-color:#007DFA;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    
+   
+}
