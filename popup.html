@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script  type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title>Log in</title>
+</head>
+<body>
+    
+</body>
+   
+
+<button class="tablink" onclick="openTab('modular')">....</button>
+
+<dialog id="modular">
+  <div class="tab-header">
+    <h3 class="tab-title"></h3>
+    <button class="close-btn" onclick="closeTab('modular')">X</button>
+  </div>
+
+  <div class="tab-body">
+         <button class="inner-tablink" onclick="openTab('acceso')">Acceso</button>
+
+            <dialog id="acceso">
+                <div class="tab-header">
+                    <h3 class="tab-title">Acceso</h3>
+                <button class="close-btn" onclick="closeTab('acceso')">X</button>
+            </div>
+            <div class="tab-body">
+                    <p class="categoria">Nombre</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">First Last Name</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">Second Last Name</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">Born Date</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">Nationality</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">State of birth</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">Economic Activity</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">Curp</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">RFC</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">Phone</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">Email</p>
+                    <p class="normaltext"></p>
+                    <p class="especial" >Other</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">Country</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">State</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">City</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">Neigborhood</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">Zip Code</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">Street</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">Ext Number</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">Int Number</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">Identificacion Type</p>
+                    <p class="normaltext"></p>
+                    <p class="categoria">Identificacion Number</p>  
+                    <p class="normaltext"></p>
+            </div>
+    </dialog>
+  </div>
+  
+    <div class="tab-body">
+        <button class="inner-tablink" onclick="openTab('rectificacion')">Rectificacion</button>
+        <dialog id="rectificacion">
+        <div class="tab-header">
+            <h3 class="tab-title">Rectificacion</h3>
+            <button class="close-btn" onclick="closeTab('rectificacion')">X</button>
+        </div>
+        <div class="tab-body">
+            
+            <!-- <form action="" method="post"> -->
+              <label for="nombre">Nombre:</label><br>
+              <input type="text" id="form" name="nombre" ><br>
+              
+              <label for="FLN">First Last Name:</label><br>
+              <input type="tex" id="form" name="" placeholder=""><br>
+
+              <label for="">Second Last Name:</label><br>
+              <input type="tex" id="form" name="" placeholder=""><br>
+
+              <label for="">Born Date:</label><br>
+              <input type="tex" id="form" name="" placeholder=""><br>
+
+              <label for="">Nationality:</label><br>
+              <input type="tex" id="form" name="" placeholder=""><br>
+
+              <label for="">State of birth:</label><br>
+              <input type="tex" id="form" name="" placeholder=""><br>
+
+              <label for="">Economic Activity:</label><br>
+              <input type="tex" id="form" name="" placeholder=""><br>
+
+              <label for="">Curp:</label><br>
+              <input type="tex" id="form" name="" placeholder=""><br>
+
+              <label for="">RFC:</label><br>
+              <input type="tex" id="form" name="" placeholder=""><br>
+
+              <label for="">Phone:</label><br>
+              <input type="tex" id="form" name="" placeholder=""><br>
+
+              <label for="">Email:</label><br>
+              <input type="tex" id="form" name="" placeholder=""><br>
+
+              <!-- <label for="">Other:</label><br>
+              <input type="tex" id="" name="" placeholder=""><br> -->
+
+              <label for="">Country:</label><br>
+              <input type="tex" id="" name="" placeholder=""><br>
+
+              <label for="">State:</label><br>
+              <input type="tex" id="" name="" placeholder=""><br>
+
+              <label for="">City:</label><br>
+              <input type="tex" id="" name="" placeholder=""><br>
+
+              <label for="">Neigborhood:</label><br>
+              <input type="tex" id="" name="" placeholder=""><br>
+
+              <label for="">Zip Code:</label><br>
+              <input type="tex" id="" name="" placeholder=""><br>
+
+              <label for="">Street:</label><br>
+              <input type="tex" id="" name="" placeholder=""><br>
+
+              <label for="">Ext Number:</label><br>
+              <input type="tex" id="" name="" placeholder=""><br>
+
+              <label for="">Int Number:</label><br>
+              <input type="tex" id="" name="" placeholder=""><br>
+
+              <label for="">Identificacion Type:</label><br>
+              <input type="tex" id="" name="" placeholder=""><br>
+
+              <label for="">Identificacion Number:</label><br>
+              <input type="tex" id="" name="" placeholder=""><br>
+                  
+              <input type="submit" value="Enviar">
+            <!-- </form> -->
+        </div>
+        </dialog>
+    </div>
+
+    <div class="tab-body">
+            <button class="inner-tablink" onclick="openTab('oposicion')">Oposicion</button>
+            <dialog id="oposicion">
+            <div class="tab-header">
+                <h3 class="tab-title">Oposicion</h3>
+                <button class="close-btn" onclick="closeTab('oposicion')">X</button>
+            </div>
+            <div class="tab-body">
+                <p>By meanof the present and paying attetion to the ARCO rights with wich the user Rafael NIcolas Belloni Arcoreporting the oposition of his personal data</p>                
+                <label for="">Oposittion cause by the user:</label><br>
+                <textarea id="b-text" name="mensaje" rows="4" cols="40"></textarea><br><br>
+            </div>
+        </dialog>
+    </div>
+
+    <div class="tab-body">
+        <button class="inner-tablink" onclick="openTab('cancelacion')">Cancelacion</button>
+        <dialog id="cancelacion">
+        <div class="tab-header">
+            <h3 class="tab-title">Cancelation</h3>
+            <button class="close-btn" onclick="closeTab('cancelacion')">X</button>
+        </div>
+        <div class="tab-body">
+            <p>By meanof the present and paying attetion to the ARCO rights with wich the user Rafael NIcolas Belloni Arcoreporting the Cancelation of his personal data</p>
+                
+            <label for="">Cancelation cause by the user:</label><br>
+            <textarea id="b-text" name="mensaje" rows="4" cols="40"></textarea><br><br>
+        </div>
+    </dialog>
+    </div>
+   
+
+</dialog>
+
+
+
+
+   
+</html>
